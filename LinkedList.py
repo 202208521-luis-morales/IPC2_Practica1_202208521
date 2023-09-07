@@ -86,3 +86,14 @@ class LinkedList:
             counter += 1
 
         return None
+    
+    def get_length(self):
+        current = self.head
+        counter = 0
+
+        while current:
+            counter += 1
+            current = current.next
+        
+
+        return counter
